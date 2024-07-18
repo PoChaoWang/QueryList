@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # About Query List
 This is a side project designed to allow users to query tables from a MySQL database and transmit the query results to Google Sheets.
 
