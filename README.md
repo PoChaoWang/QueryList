@@ -21,6 +21,7 @@ To ensure the project works correctly, you need to install the following package
 
 ### composer
 `composer require google/apiclient`
+
 Please make sure you have set up the API in Google.
 https://developers.google.com/sheets/api/guides/concepts
 
@@ -28,12 +29,18 @@ https://developers.google.com/sheets/api/guides/concepts
 If you want to utilize all features and code within the project, consider installing the following packages:
 
 ### npm
-`npm install @fortawesome/fontawesome-free react-resizeable-panels`
+```
+npm install @fortawesome/fontawesome-free react-resizeable-panels
+```
 
 ### composer
-`composer require brooze`
+```
+composer require brooze
+```
 
-`php artisan breeze:install`
+```
+php artisan breeze:install
+```
 
 I use React with Inertia, Dark mode, and PHPUnit to install Breeze.
 
@@ -86,7 +93,9 @@ and remove the comment code in the file.
 
 ### Dashboard.jsx, Query/Index.jsx, Query/Create.jsx, Query/Edit.jsx, Query/Show.jsx
 Remove the commented code in the file.
-`user={auth.user}`
+```
+user={auth.user}
+```
 
 ## Database
 Please ensure that the .env and config/database.php files have been set up with the correct database configurations you require.
