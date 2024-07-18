@@ -58,12 +58,14 @@ Please ensure you have set up the Google Sheets API in the Google API Console. Y
 The authentication is currently invalid. If you want to use it, you need to remove the comment code below.
 
 ### AuthenticatedLayout
-```{/* <Dropdown>
+```
+    {/* <Dropdown>
     \\code
    </Dropdown> */}
 ```
 
-```{/* <div className="px-4">
+```
+    {/* <div className="px-4">
     \\code
     </div> */}
 ```
